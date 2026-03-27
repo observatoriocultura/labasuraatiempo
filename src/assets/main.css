@@ -1,0 +1,33 @@
+/* Simplified global styles */
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+:root {
+  --primary: #008a0e; /* Slightly darker green for readability */
+  --secondary: #ffd709;
+  --background: #fcfcfc;
+  --text: #1a1c1d;
+  --text-muted: #494c4d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: 'Metrophobic', sans-serif;
+  font-weight: normal;
+}
+
+#app {
+  min-height: 100vh;
+}
