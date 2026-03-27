@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/labasuraatiempo/', // Base URL of the GitHub Pages repository
   plugins: [
     vue(),
     vueDevTools(),
