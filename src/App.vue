@@ -1,4 +1,5 @@
 <script setup>
+const baseUrl = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -14,7 +15,7 @@
     <!-- Chatico Section -->
     <section class="chatico-compact">
       <div class="chatico-avatar">
-        <img src="/images/chatico.jpg" alt="Chatico Logo" />
+        <img :src="`${baseUrl}images/chatico.jpg`" alt="Chatico Logo" />
       </div>
       <div class="chatico-info">
         <p>Escríbeme por WhatsApp para conocer ahora mismo los horarios de recolección de basura en tu barrio. ¡Saca tu bolsa justo a tiempo!</p>
