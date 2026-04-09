@@ -1,12 +1,14 @@
-/* Simplified global styles */
-@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+/* Refined global styles based on new design reference */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
 :root {
-  --primary: #EA0A2A;
-  --secondary: #ffd709;
-  --background: #fcfcfc;
-  --text: #1a1c1d;
-  --text-muted: #494c4d;
+  --primary: #B8D935; /* Lime green from image */
+  --secondary: #1A2F2B; /* Dark background from image */
+  --accent: #B8D935;
+  --background: #111e1b;
+  --text: #ffffff;
+  --text-muted: #a0a0a0;
+  --card-bg: rgba(255, 255, 255, 0.05);
 }
 
 * {
@@ -16,18 +18,21 @@
 }
 
 body {
-  font-family: 'Be Vietnam Pro', sans-serif;
-  background-color: var(--background);
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #314F52 0%, #111E1B 100%);
+  background-attachment: fixed;
   color: var(--text);
-  line-height: 1.6;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3 {
-  font-family: 'Metrophobic', sans-serif;
-  font-weight: normal;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 #app {
   min-height: 100vh;
 }
+
