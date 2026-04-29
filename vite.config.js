@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/labasuraatiempo/', // Base URL of the GitHub Pages repository
+  base: '/', // Custom domain root for GitHub Pages
   plugins: [
     vue(),
     vueDevTools(),
