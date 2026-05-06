@@ -135,7 +135,7 @@ const trackChaticoClick = () => {
 /* Hero Section Reference Style */
 .hero-reference {
   position: relative;
-  height: 350px;
+  height: 228px;
   background-image: url('/images/residuos-2.jpg');
   background-size: cover;
   background-position: center left;
@@ -401,7 +401,7 @@ const trackChaticoClick = () => {
 
 @media (max-width: 600px) {
   .hero-reference {
-    height: 380px;
+    height: 247px;
     background-position: center center;
   }
 
